@@ -120,6 +120,9 @@
         }
 
         window.addEventListener('scroll', handleScroll);
+        window.addEventListener('popstate', function (event) {
+            window.location.replace('https://edington.dev/projects');
+        });
     </script>     
 </body>
 </html>
